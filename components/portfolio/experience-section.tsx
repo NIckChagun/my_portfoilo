@@ -102,8 +102,8 @@ export function ExperienceSection() {
             <div className="group relative overflow-hidden rounded-xl border border-border bg-card/50 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
               <div className="aspect-video overflow-hidden">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/e-commernce-9IRAMzhVIMT2asHgKYoCaPXt8BzWTK.png"
-                  alt="Advice E-commerce Homepage - Apple Authorized Reseller showcasing iPhone products"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/home_page_new-HffQAr6yyFGT1HZTpihSikOWmhRoP9.jpg"
+                  alt="Advice E-commerce Homepage - Apple Authorized Reseller showcasing iPhone 17e products"
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -115,7 +115,7 @@ export function ExperienceSection() {
             <div className="group relative overflow-hidden rounded-xl border border-border bg-card/50 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5">
               <div className="aspect-video overflow-hidden">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pro_pair-1iiuJhAqvV5y8cGnPKuioHBnocPqj2.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cart_page_new-rO6SAjpsH1tigzQjLILQoolTeELzLp.jpg"
                   alt="Advice Shopping Cart - Product listing with checkout functionality"
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
