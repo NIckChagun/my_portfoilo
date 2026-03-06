@@ -96,6 +96,38 @@ export function ExperienceSection() {
           </div>
         </div>
 
+        {/* Project Screenshots */}
+        <div className="fade-up opacity-0 translate-y-8 transition-all duration-700 delay-150 ease-out [&.animate-in]:opacity-100 [&.animate-in]:translate-y-0 mb-10 ml-6 pl-12 md:ml-6">
+          <div className="grid gap-4 md:grid-cols-2">
+            <div className="group overflow-hidden rounded-xl border border-border bg-card/50 transition-all hover:border-primary/50 hover:shadow-lg">
+              <div className="aspect-video overflow-hidden">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/e-commernce-r1Zu4alXwKRi4c3A5UgrHaLRTcKZwH.png"
+                  alt="Advice E-commerce Homepage"
+                  className="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="p-4">
+                <p className="text-sm font-medium text-foreground">E-commerce Homepage</p>
+                <p className="mt-1 text-xs text-muted-foreground">Main landing page with promotions and product categories</p>
+              </div>
+            </div>
+            <div className="group overflow-hidden rounded-xl border border-border bg-card/50 transition-all hover:border-primary/50 hover:shadow-lg">
+              <div className="aspect-video overflow-hidden">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pro_pair-VM0EmKxDPIguXzM8vnVzUyfwarHIFt.png"
+                  alt="Advice Shopping Cart"
+                  className="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div className="p-4">
+                <p className="text-sm font-medium text-foreground">Shopping Cart System</p>
+                <p className="mt-1 text-xs text-muted-foreground">Cart management with product recommendations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="relative ml-6 border-l border-border pl-12 md:ml-6">
           {experiences.map((exp, index) => (
             <div
